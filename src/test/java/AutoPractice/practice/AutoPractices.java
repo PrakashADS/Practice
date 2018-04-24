@@ -21,7 +21,7 @@ import org.junit.Assert;
 	    	System.setProperty("webdriver.chrome.driver", "D:\\PRAKASH DOCS\\PRAKASH_Softwares\\chromedriver_win32\\chromedriver.exe");  
 		    driver=new ChromeDriver();
 	        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-	        driver.get("http://demo.guru99.com/test/newtours/");
+	        driver.get("http://edoc.sgssys.info");
 	        driver.manage().window().maximize();
 	    }
 	    
